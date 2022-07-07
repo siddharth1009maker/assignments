@@ -1,0 +1,55 @@
+body
+{
+    
+  /*👉  margin: 0;
+    padding: 0;👈*/  
+    background-color:burlywood;
+}
+
+h1
+{
+    /*👉width: 300px;
+    margin: 0 auto;👈*/
+    text-decoration: underline;
+    font-size: 4rem;
+}
+
+.structure
+{
+    width: 750px;
+}
+
+span {
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+.button
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+button
+{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: blanchedalmond;
+    font-size: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 5px 10px #888888;
+}
+
+button:hover{
+    height: 70px;
+    width: 170px;
+    color: brown;
+}
