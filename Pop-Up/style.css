@@ -1,5 +1,39 @@
+body
+{
+    background-color: #37a8a2;
+        background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+}
 #box
 {
-    height : 200px ;
+    background-color: #52e6fa;
+        background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+        /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    height : 500px ;
+    width: 700px;
     
+}
+/*👉#close-btn {
+    background: black;
+    border: 1px solid black;
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}👈*/
+/*👉#cross {
+    cursor: pointer;
+    color: red;
+}👈*/
+
+#cross
+{
+    position: relative;
+    left:40rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#cross:hover{
+    color: blue;
+    transform: scale(1.5);
 }
