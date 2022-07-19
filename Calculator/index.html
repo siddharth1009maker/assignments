@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/light.css" id="theme" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <h1>Calculator</h1>
+        <div class="first-row">
+          <input
+            type="text"
+            placeholder="Result"
+            id="result"
+            name="answer"
+            value=""
+            disabled
+          />
+          <input
+            type="button"
+            class="key"
+            value="C"
+            id="clear"
+            onclick="clearScreen()"
+          />
+        </div>
+        <div class="second-row">
+          <input type="button" class="key" onclick="liveScreen(1)" value="1" />
+          <input type="button" class="key" onclick="liveScreen(2)" value="2" />
+          <input type="button" class="key" onclick="liveScreen(3)" value="3" />
+          <input
+            type="button"
+            class="key"
+            onclick="liveScreen('+')"
+            value="+"
+          />
+        </div>
+        <div class="third-row">
+          <input type="button" class="key" onclick="liveScreen(4)" value="4" />
+          <input type="button" class="key" onclick="liveScreen(5)" value="5" />
+          <input type="button" class="key" onclick="liveScreen(6)" value="6" />
+          <input
+            type="button"
+            class="key"
+            onclick="liveScreen('-')"
+            value="-"
+          />
+        </div>
+        <div class="fourth-row">
+          <input type="button" class="key" onclick="liveScreen(7)" value="7" />
+          <input type="button" class="key" onclick="liveScreen(8)" value="8" />
+          <input type="button" class="key" onclick="liveScreen(9)" value="9" />
+          <input
+            type="button"
+            class="key"
+            onclick="liveScreen('*')"
+            value="X"
+          />
+        </div>
+        <div class="fifth-row">
+          <input
+            type="button"
+            class="key"
+            onclick="liveScreen('/')"
+            value="/"
+          />
+          <input type="button" class="key" onclick="liveScreen(0)" value="0" />
+          <input
+            type="button"
+            class="key"
+            onclick="liveScreen('.')"
+            value="."
+          />
+          <input
+            type="button"
+            class="key"
+            onclick="result.value = eval(result.value)"
+            value="="
+          />
+        </div>
+        <div class="bottom-buttons">
+          <button onclick="setTimeout(changeTheme,delay);" id="change-theme">
+            Dark Mode 🌙
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
