@@ -1,0 +1,19 @@
+body
+{
+    background-color :aqua;
+}
+.row
+{
+    padding-top: 3rem;
+}
+
+img
+{
+    max-height: 225.33px;
+    max-width: 400px;
+}
+
+.btn
+{
+    border-radius: 100%;
+}

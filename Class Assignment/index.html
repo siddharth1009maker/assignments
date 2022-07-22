@@ -9,29 +9,22 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Image Slider</title>
+    <title>Weight Converter</title>
   </head>
   <body>
-    <div class="container-fluid text-center pt-3">
-      <h1 class="display-3 lead">IMAGE SLIDER</h1>
-      <div class="row">
-        <div class="col-sm">
-          <button class="leftBtn btn btn-outline-dark"><</button>
-        </div>
-        <div class="col-sm">
-          <img src="" alt="Image" />
-        </div>
-        <div class="col-sm">
-          <button class="rightBtn btn btn-outline-dark">></button>
-        </div>
+    <div class="card" style="width: 25rem; margin: auto">
+      <h2 class="card-img-top display-3 bg-primary" src="" alt="Card image cap">
+        Weight Converter
+      </h2>
+      <div class="card-body">
+        <form action="#">
+          <label name="weight">Enter Weight In Grams</label>
+          <input type="text" placeholder="Weight (g)" class="weightInput" />
+          <p class="answer" class="display-5"></p>
+          <input type="submit" class="btn btn-outline-dark submitBtn" />
+        </form>
       </div>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
