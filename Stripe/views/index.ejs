@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buy cool new product</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <button>CheckOut</button>
+    <script>
+      const button = document.querySelector("button");
+      button.addEventListener("click", () => {
+        $.ajax({
+          url: "/create-checkout-session",
+          type: "POST",
+          contentType: "application/json",
+          data: JSON.stringify({ quantity: 1 }),
+          success: function (data, textStatus, xhr) {
+            var stripe = Stripe(
+              "pk_test_51KNb37SDyanzXER2Mzk1QGVgqA2dOzSklARE2aBmkhEI5DVps8ZQG1DYGkI4C1RWAEmPNGgmuFkJZFjpM9wBeZ3j0034ZFE4Jb"
+            );
+            return stripe.redirectToCheckOut({ sessionId: data.id });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

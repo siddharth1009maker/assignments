@@ -1,0 +1,225 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #000000;
+    font-family: "Kanit",sans-serif;
+}
+
+#twiiter_landing_page_img
+{
+    height: 890px;
+    width: 50vw;
+}
+
+.twitter_content_image
+{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+i
+{
+    font-size: 3.5rem;
+    color: white;
+}
+
+.col
+{
+    padding: 0;
+}
+
+.twitter_content
+{
+    margin: 4rem;
+}
+
+#content_heading
+{
+    font-size: 5.8rem;
+    color: white;
+}
+
+p{
+    margin-top: 3.5rem;
+    font-size: 3rem ;
+    color: white;
+}
+
+button i 
+{
+    font-size: 1.2rem;
+}
+
+.fa-google
+{
+    color:red;
+}
+
+.fa-apple
+{
+    color:black
+}
+
+span{
+    font-size: 1.2rem;
+    margin-left: 1.2rem;
+}
+
+button{
+    cursor: pointer;
+    margin: 0.5rem;
+    width:70%;
+    border-style: none;
+    border-radius: 25px;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#normal_button:hover
+{
+    background-color: rgb(211, 206, 206);
+}
+
+.strike span
+{
+    color:white
+}
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 75%;
+}
+
+.strike>span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike>span:before,
+.strike>span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: gray;
+}
+
+.strike>span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike>span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+#blue_button
+{
+    background-color: rgb(174, 174, 233);
+}
+
+#blue_button:hover
+{
+    background-color: rgb(102, 85, 147);
+}
+
+.guidlines_text
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0.1rem;
+    font-size: 1rem;
+}
+
+#guidlines_text_span
+{
+    font-size: 1rem;
+}
+
+.second_content
+{
+    margin-top: 2rem;
+}
+
+#second_content_para
+{
+    font-size: 1.5rem;
+}
+
+#second_content_button
+{
+    border: 1px solid white;
+    background-color: black;
+    color: blue;
+}
+
+footer
+{
+    text-align: center;
+}
+
+.footer-container a
+{
+    margin: 0.5rem;
+    text-decoration: none;
+    color: gray;
+}
+/*👉.footer-container span{
+    position: absolute;
+    right: 100px;
+}👈*/
+
+#twiiter_content_page_img
+{
+    display: none;
+}
+
+@media only screen and (max-width:999px){
+    body , footer{
+        text-align: center;
+    }
+    #twiiter_landing_page_img
+    {
+        display: none;
+    }
+    #twiiter_content_page_img
+    {
+        display: block;
+        /*👉width: 100vw;👈*/
+        
+    }
+    footer{
+        
+        font-size: 0.7rem;
+    }
+
+    footer span{
+        font-size: 0.7rem;
+    }
+    #content_heading
+    {
+        font-size: 2rem !important;
+    }
+    p{
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+    button{
+        padding:2.5px 2.5px
+    }
+    button i{
+        font-size: 0.7rem;
+    }
+    button span{
+        font-size: 0.7rem;
+    }
+}
