@@ -1,69 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment Links</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Siddharth Gupta</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lobster&family=Nunito+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f88edcb3fe.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <center>
-      <div class="structure">
-        <h1>Nagarro Assignments</h1>
-        <p><span>Name</span> -> Siddharth Gupta</p>
-        <p><span>Email Id </span> -> siddharthsaachi@gmail.com</p>
-        <div class="button">
-          <div class="button1">
-            <a href="./pokemon/index.html"
-              ><button onclick="notify('Pokemon')">Pokemon Page</button></a
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand navbar-brand-text">Siddharth</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item m-2">
+              <a href="#home" class="nav-link navbar-text">Home</a>
+            </li>
+            <li class="nav-item m-2">
+              <a href="#about" class="nav-link navbar-text">About</a>
+            </li>
+            <li class="nav-item m-2">
+              <a href="#skills-and-education" class="nav-link navbar-text"
+                >Skills And Education</a
+              >
+            </li>
+            <li class="nav-item m-2">
+              <a href="#projects" class="nav-link navbar-text">Projects</a>
+            </li>
+            <li class="nav-item m-2">
+              <a href="#contacts" class="nav-link navbar-text">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+
+    <div class="container-fluid home-section" id="home">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="home-section-heading">H<span>i,</span></p>
+          <p class="home-section-heading">I'm Siddharth <span>Gupta</span></p>
+          <h1>
+            <a
+              href=""
+              class="typewrite"
+              data-period="2000"
+              data-type='[ "I am a  Web Developer.", "I am a C++ Programmer. ", "Summer Intern from Nagarro.", "I love to play Football." ]'
             >
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          <p class="home-section-content">
+            Currently pursuing my B.Tech from Bharati Vidyapeeth's College Of
+            Engineering(BVCOE) , New Delhi. Working on Web Development and
+            Problem Solving skills.
+          </p>
+        </div>
+        <div class="col-lg-6 home-section-image">
+          <img
+            src="./images/Siddharth_pic.jpeg"
+            alt="My Image"
+            class="mine-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About me section -->
+
+    <hr />
+
+    <div class="about-section" id="about">
+      <h1>About Me</h1>
+      <div class="about-section-content">
+        <p>
+          I am <span>Siddharth Gupta</span> , I have a great interest in Web
+          development and programming . I am fluent in programming languages
+          like <span>C++ , Javascript and Python</span>. I like to work on new
+          ideas and contribute to the community to make the world a better place
+          .
+        </p>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Skill and education section -->
+
+    <div
+      class="container-fluid skill-education-section"
+      id="skills-and-education"
+    >
+      <div class="row skill-education-content">
+        <div class="col col-md-6 skill-content">
+          <h1>My Skills</h1>
+          <div class="skill-section">
+            <div class="row skiils">
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-bootstrap"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-react"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-github"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-git-alt"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-python"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fas fa-solid fa-database"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-html5"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-css3"></i>
+              </div>
+              <div class="col col-md-4 col-sm-6">
+                <i class="fab fa-brands fa-js"></i>
+              </div>
+            </div>
           </div>
-          <div class="button2">
-            <a href="./portfolio/index.html"
-              ><button onclick="notify('Portfolio')">Portfolio Page</button></a
-            >
-          </div>
-          <div class="button3">
-            <a href="./cricketApp/index.html"
-              ><button onclick="notify('Cricket App')">Cricket App</button></a
-            >
-          </div>
-          <div class="button4">
-            <a href="./To-Do App/index.html"
-              ><button onclick="notify('To Do App')">To Do App</button></a
-            >
-          </div>
-          <div class="button6">
-            <a href="./Copy To Clickboard/index.html"
-              ><button onclick="notify('Copy Text')">Copy Text</button></a
-            >
-          </div>
-          <div class="button6">
-            <a href="./Pop-Up/index.html"
-              ><button onclick="notify('Pop Up Page')">Pop Up Page</button></a
-            >
-          </div>
-          <div class="button7">
-            <a href="./Calculator/index.html"
-              ><button onclick="notify('Calculator')">Calculator</button></a
-            >
-          </div>
-          <div class="button8">
-            <a href="./image slider/index.html"
-              ><button onclick="notify('Image Slider')">Image Slider</button></a
-            >
-          </div>
-          <div class="button9">
-            <a href="./class-assignment2/index.html"
-              ><button onclick="notify('Theme Changer')">
-                Theme Changer
-              </button></a
-            >
+        </div>
+        <div class="col col-md-6 education-content">
+          <h1>My Education</h1>
+          <div class="education-section">
+            <div class="row education">
+              <div class="col col-sm-12 institution">
+                <p>10th</p>
+                <p class="institution-name">Shadley Public School</p>
+                <p class="state-name">Delhi</p>
+                <p>2006 - 2016</p>
+              </div>
+              <div class="col col-sm-12 institution">
+                <p>12th</p>
+                <p class="institution-name">Shadley Public School</p>
+                <p class="state-name">Delhi</p>
+                <p>2016 - 2018</p>
+              </div>
+              <div class="col col-sm-12 institution">
+                <p>B.Tech</p>
+                <p class="institution-name">
+                  Bharati Vidyapeeth's College Of Engineering
+                </p>
+                <p class="state-name">Delhi</p>
+                <p>2019 - 2023</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </center>
+    </div>
+
+    <hr />
+
+    <!-- Projects Section -->
+
+    <div class="container-fluid projects-section" id="projects">
+      <h1 class="project-heading">My Projects</h1>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/paste.png"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Copy - Paste Project</h1>
+              <a href="./Copy To Clickboard/index.html" target="_blank"
+                >Site Link</a
+              >
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/JavaScript-Form-Validation-Example.png"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Form Validation project</h1>
+              <a href="./Form Validation/index.html" target="_blank"
+                >Site Link</a
+              >
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/pokemon.jpg"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Pokemon</h1>
+              <a href="./pokemon/index.html" target="_blank">Site Link</a>
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/to-do-list.jpg"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">To Do List</h1>
+              <a href="./To-Do App/index.html" target="_blank">Site Link</a>
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/pop-up.webp"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Pop Up</h1>
+              <a href="./Pop-Up/index.html" target="_blank">Site Link</a>
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/slider.png"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Image Slider</h1>
+              <a href="./image slider/index.html" target="_blank">Site Link</a>
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/cricket.jpg"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Cricket App</h1>
+              <a href="./cricketApp/index.html" target="_blank">Site Link</a>
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/scale.png"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Weight Converter</h1>
+              <a href="./Class Assignment/index.html" target="_blank"
+                >Site Link</a
+              >
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/calculator.jpg"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Calculator</h1>
+              <a href="./Calculator/index.html" target="_blank">Site Link</a>
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/change.png"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Theme Changer App</h1>
+              <a href="./class-assignment2/index.html" target="_blank"
+                >Site Link</a
+              >
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/twitter.jpg"
+              class="carousel-img d-block"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-caption-heading">Twitter Frontend</h1>
+              <a href="./Twiiter_App/index.html" target="_blank">Site Link</a>
+              <a href="" target="_blank">Code Link</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon carousel-btn"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon carousel-btn"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="container-fluid contact-section" id="contacts">
+      <h1 class="prohect-heading">Contact Me</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <a href=""><i class="fab fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="col-md-3">
+          <a href=""><i class="fab fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="col-md-3">
+          <a href=""><i class="fab fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="col-md-3">
+          <a href=""><i class="fas fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js"></script>
   </body>
 </html>

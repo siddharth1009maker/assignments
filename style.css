@@ -1,55 +1,216 @@
-body
-{
-    
-  /*👉  margin: 0;
-    padding: 0;👈*/  
-    background-color:burlywood;
+.selector-for-some-widget {
+    box-sizing: content-box;
 }
 
-h1
+body
 {
-    /*👉width: 300px;
-    margin: 0 auto;👈*/
-    text-decoration: underline;
+    background-color: #f5f7fa;
+    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+
+.navbar
+{
+    position: sticky;
+    top : 0;
+    z-index: 10;
+}
+.navbar-brand{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.navbar-text
+{
+    font-size: 1.5rem;
+}
+
+.home-section
+{
+    margin: 2rem;
+    padding: 2rem 10rem;
+}
+
+.home-section-heading
+{
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 4rem;
 }
 
-.structure
+.home-section-heading span
 {
-    width: 750px;
+    color: blue;
 }
 
-span {
+.home-section-content
+{
+    margin-top: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.typewrite
+{
+    font-family: 'Nunito Sans', sans-serif !important;
+    text-decoration: none;
+    pointer-events: none;
+    color: #3FA796;
+}
+
+
+.mine-image{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 6rem;
+}
+
+hr
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.5rem;
+    width: 75%;
+    border-top: 7px solid rgb(0, 0, 0) !important;
+}
+
+.about-section
+{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.about-section h1
+{
+    font-size: 4rem;
+}
+
+.about-section-content
+{
+    padding: 1rem 8rem;
+}
+.about-section-content p
+{
+    word-wrap: break-word;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.about-section-content span
+{
+    color: red;
+}
+
+.skill-section
+{
+    border: 9px solid blue;
+    border-radius: 10%;
+}
+
+
+i
+{
+    color: blue;
+    font-size: 6rem;
+    padding: 2rem;
+}
+
+
+.skill-education-content h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.education-section
+{
+    border: 9px solid blue;
+    border-radius: 10%;
+}
+
+.education
+{
+    padding: 2rem;
+    line-height: 1.15rem;
+    color: rgb(34, 34, 241);
+}
+
+.institution
+{
+    margin-bottom: 1.1rem;
+}
+
+.institution-name
+{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.institution p
+{
+    font-style: italic;
+}
+
+.state-name
+{
+    margin-bottom: 0;
+}
+
+.projects-section
+{
+    text-align: center;
+}
+
+.project-heading
+{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-img
+{
+    margin: auto;
+    height: 500px;
+}
+
+.carousel-btn
+{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.carousel-caption-heading
+{
+    color: rgb(1, 0, 0);
+    font-size: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.carousel-caption a
+{
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: rgb(2, 1, 1);
+}
+
+.carousel-caption a:hover{
     font-size: 2rem;
     text-decoration: underline;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p{
-    font-size: 1.8rem;
-}
-
-.button
+.contact-section
 {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
 }
 
-button
+.contact-section i
 {
-    height: 50px;
-    width: 150px;
-    border: 1px solid black;
-    border-radius: 5%;
-    background-color: blanchedalmond;
-    font-size: 1rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    cursor: pointer;
-    box-shadow: 5px 10px #888888;
+    color: rgb(242, 105, 105);
 }
 
-button:hover{
-    height: 70px;
-    width: 170px;
-    color: brown;
+.contact-section i:hover
+{
+    background-color: red;
+    color : blue;
+    border-radius: 10%;
 }
